@@ -218,7 +218,7 @@
             unless="phpspec.done"
             depends="composer"
             description="Run unit tests with PhpSpec">
-        <exec executable="${basedir}bin/phpspec" failonerror="true" taskname="run">
+        <exec executable="${basedir}/bin/phpspec" failonerror="true" taskname="run">
             <arg value="--format"/>
             <arg path="html"/>
         </exec>
