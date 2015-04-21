@@ -217,22 +217,11 @@
     <target name="phpspec"
             unless="phpspec.done"
             depends="composer"
-            description="Run unit tests with PhpSpec and log result in html format.">
-        <exec executable="${basedir}/bin/phpspec" failonerror="true" taskname="phpspec">
-            <arg value="run"/>
-            <arg value="--format=html"/>
-        </exec>
-
-        <property name="phpspec.done" value="true"/>
-    </target>
-
-    <target name="phpspec-ci"
-            unless="phpspec.done"
-            depends="composer"
             description="Run unit tests with PhpSpec and log result in XML format.">
         <exec executable="${basedir}/bin/phpspec" failonerror="true" taskname="phpspec">
             <arg value="run"/>
             <arg value="--format=junit"/>
+            <redirector output="${basedir}/build/logs/junit.xml" alwayslog="true"/>
         </exec>
 
         <property name="phpspec.done" value="true"/>

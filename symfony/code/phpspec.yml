@@ -8,5 +8,5 @@ code_coverage:
         - crap4j
     output:
         html: build/coverage
-        clover: build/logs/coverage.xml
+        clover: build/logs/clover.xml
         crap4j: build/logs/crap4j.xml
