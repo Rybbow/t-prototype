@@ -44,3 +44,7 @@
 ### OTHER
 *~
 
+### BUILD
+!build/phpmd.xml
+!build/phpdox.xml
+build/*

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1eb3a0adea3d66f834bed0c2d24e8fa8",
+    "hash": "c6a9bf2a6f097a68364f566ed3a8a646",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -57,16 +57,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.2.3",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4"
+                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/eeda578cbe24a170331a1cfdf78be723412df7a4",
-                "reference": "eeda578cbe24a170331a1cfdf78be723412df7a4",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/b5202eb9e83f8db52e0e58867e0a46e63be8332e",
+                "reference": "b5202eb9e83f8db52e0e58867e0a46e63be8332e",
                 "shasum": ""
             },
             "require": {
@@ -121,20 +121,20 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2014-12-20 20:49:38"
+            "time": "2014-12-23 22:40:37"
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.4.0",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8"
+                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/2346085d2b027b233ae1d5de59b07440b9f288c8",
-                "reference": "2346085d2b027b233ae1d5de59b07440b9f288c8",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/c9eadeb743ac6199f7eec423cb9426bc518b7b03",
+                "reference": "c9eadeb743ac6199f7eec423cb9426bc518b7b03",
                 "shasum": ""
             },
             "require": {
@@ -145,13 +145,13 @@
             },
             "require-dev": {
                 "phpunit/phpunit": ">=3.7",
-                "predis/predis": "~0.8",
+                "predis/predis": "~1.0",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -191,24 +191,27 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-01-15 20:38:55"
+            "time": "2015-04-15 00:11:59"
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.2",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2"
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/b99c5c46c87126201899afe88ec490a25eedd6a2",
-                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
@@ -227,17 +230,6 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
@@ -246,10 +238,16 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
+                    "email": "schmittjoh@gmail.com"
                 }
             ],
             "description": "Collections Abstraction library",
@@ -259,7 +257,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2014-02-03 23:07:43"
+            "time": "2015-04-14 22:21:58"
         },
         {
             "name": "doctrine/common",
@@ -1169,6 +1167,57 @@
             "time": "2012-12-21 11:40:51"
         },
         {
+            "name": "qafoolabs/no-framework-bundle",
+            "version": "v2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooLabs/QafooLabsNoFrameworkBundle.git",
+                "reference": "1f782cf7b1a111895be44b55e163629814da018e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooLabs/QafooLabsNoFrameworkBundle/zipball/1f782cf7b1a111895be44b55e163629814da018e",
+                "reference": "1f782cf7b1a111895be44b55e163629814da018e",
+                "shasum": ""
+            },
+            "require": {
+                "sensio/framework-extra-bundle": "~3.0",
+                "symfony/framework-bundle": "~2.1"
+            },
+            "require-dev": {
+                "jms/serializer": "@stable",
+                "phake/phake": "@stable",
+                "symfony/form": "@stable"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "QafooLabs\\Bundle\\NoFrameworkBundle\\": "src/",
+                    "QafooLabs\\MVC\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Manuel Pichler",
+                    "email": "manuel@qafoo.com"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "benjamin@qafoo.com"
+                }
+            ],
+            "description": "Various improvements for Symfony applications",
+            "keywords": [
+                "bundle",
+                "symfony"
+            ],
+            "time": "2015-01-26 12:04:57"
+        },
+        {
             "name": "rhumsaa/uuid",
             "version": "2.8.0",
             "source": {
@@ -1233,6 +1282,86 @@
                 "uuid"
             ],
             "time": "2014-11-09 18:42:56"
+        },
+        {
+            "name": "roave/security-advisories",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Roave/SecurityAdvisories.git",
+                "reference": "acc05c93841b23f1d30637093d7f26b9910db10c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/acc05c93841b23f1d30637093d7f26b9910db10c",
+                "reference": "acc05c93841b23f1d30637093d7f26b9910db10c",
+                "shasum": ""
+            },
+            "conflict": {
+                "contao/core": ">=2.11.0,<2.11.16|>=3.0.0,<3.1.0|>=3.1.0,<3.2.0|>=3.2.0,<3.2.7|>=2.11.0,<2.11.17|>=3.0.0,<3.1.0|>=3.1.0,<3.2.0|>=3.2.0,<3.2.9|>=2.11.0,<3.0.0|>=3.0.0,<3.1.0|>=3.1.0,<3.2.0|>=3.2.0,<3.2.19|>=3.3.0,<3.4.0|>=3.4.0,<3.4.4",
+                "doctrine/dbal": ">=2.0.0,<2.0.8|>=2.1.0,<2.1.2",
+                "doctrine/doctrine-module": "<=0.7.1|<=0.7.1",
+                "doctrine/orm": ">=2.0.0,<2.0.3",
+                "dompdf/dompdf": ">=0.6.0,<0.6.1",
+                "firebase/php-jwt": "<2.0.0",
+                "friendsofsymfony/rest-bundle": ">=1.2.0,<1.2.2",
+                "friendsofsymfony/user-bundle": ">=1.2.0,<1.2.1|>=1.2.0,<1.2.4|>=1.2.0,<1.3.0|>=1.3.0,<1.3.5|>=1.2.0,<1.2.5|>=1.3.0,<1.3.3",
+                "illuminate/auth": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.26",
+                "illuminate/database": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.29",
+                "laravel/framework": ">=4.0.0,<4.0.99|>=4.1.0,<4.1.26|>=4.0.0,<4.0.99|>=4.1.0,<4.1.29",
+                "monolog/monolog": ">=1.8.0,<1.12.0",
+                "namshi/jose": "<1.1.2|<2.0.3|<2.2.0",
+                "sabre/dav": ">=1.6.0,<1.6.9|>=1.7.0,<1.7.7|>=1.8.0,<1.8.5|>=1.6.0,<1.6.99|>=1.7.0,<1.7.11|>=1.8.0,<1.8.9",
+                "socalnick/scn-social-auth": "<1.15.2",
+                "swiftmailer/swiftmailer": ">=4.0.0,<4.99.99|>=5.0.0,<5.2.1",
+                "symfony/dependency-injection": ">=2.0.0,<2.0.17",
+                "symfony/framework-bundle": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.18|>=2.4.0,<2.4.8|>=2.5.0,<2.5.2",
+                "symfony/http-foundation": ">=2.0.0,<2.0.19|>=2.1.0,<2.1.4|>=2.0.0,<2.0.19|>=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6",
+                "symfony/http-kernel": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6",
+                "symfony/routing": ">=2.0.0,<2.0.17|>=2.0.0,<2.0.19",
+                "symfony/security": ">=2.0.0,<2.0.19|>=2.0.0,<2.0.25|>=2.1.0,<2.1.13|>=2.2.0,<2.2.9|>=2.3.0,<2.3.6",
+                "symfony/serializer": ">=2.0.0,<2.0.11",
+                "symfony/symfony": ">=2.0.0,<2.0.6|>=2.0.0,<2.0.11|>=2.0.0,<2.0.17|>=2.0.0,<2.0.19|>=2.1.0,<2.1.4|>=2.0.0,<2.0.19|>=2.0.0,<2.0.20|>=2.1.0,<2.1.5|>=2.0.0,<2.0.22|>=2.0.0,<2.0.22|>=2.1.0,<2.1.7|>=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3|>=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3|>=2.0.0,<2.0.25|>=2.1.0,<2.1.13|>=2.2.0,<2.2.9|>=2.3.0,<2.3.6|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6|>=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.27|>=2.4.0,<2.5.0|>=2.5.0,<2.5.11|>=2.6.0,<2.6.6",
+                "symfony/translation": ">=2.0.0,<2.0.17",
+                "symfony/validator": ">=2.0.0,<2.0.17|>=2.0.0,<2.0.24|>=2.1.0,<2.1.12|>=2.2.0,<2.2.5|>=2.3.0,<2.3.3",
+                "symfony/web-profiler-bundle": ">=2.0.0,<2.1.0|>=2.1.0,<2.2.0|>=2.2.0,<2.3.0|>=2.3.0,<2.3.19|>=2.4.0,<2.4.9|>=2.5.0,<2.5.4",
+                "symfony/yaml": ">=2.0.0,<2.0.22|>=2.0.0,<2.0.22|>=2.1.0,<2.1.7",
+                "thelia/backoffice-default-template": ">=2.1.0,<2.1.2",
+                "thelia/thelia": ">=2.1.0,<2.1.2|>=2.1.0-beta1,<2.1.3",
+                "twig/twig": ">=1.0.0,<1.12.3",
+                "typo3/flow": ">=1.0.0,<1.0.4|>=1.1.0,<1.1.1|>=2.0.0,<2.0.1",
+                "typo3/neos": ">=1.1.0,<1.1.3|>=1.2.0,<1.2.3",
+                "willdurand/js-translation-bundle": "<2.1.1",
+                "yiisoft/yii": ">=1.1.14,<1.1.15",
+                "zendframework/validator": ">=2.3.0,<2.3.6",
+                "zendframework/zend-db": ">=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.10|>=2.3.0,<2.3.5",
+                "zendframework/zend-form": ">=2.0.0,<2.2.7|>=2.3.0,<2.3.1",
+                "zendframework/zend-json": ">=2.1.0,<2.1.6|>=2.2.0,<2.2.6",
+                "zendframework/zend-ldap": ">=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3",
+                "zendframework/zend-navigation": ">=2.0.0,<2.2.7|>=2.3.0,<2.3.1",
+                "zendframework/zend-session": ">=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.9|>=2.3.0,<2.3.4",
+                "zendframework/zend-view": ">=2.0.0,<2.2.7|>=2.3.0,<2.3.1",
+                "zendframework/zend-xmlrpc": ">=2.1.0,<2.1.6|>=2.2.0,<2.2.6",
+                "zendframework/zendframework": ">=2.0.0,<2.0.1|>=2.0.0,<2.0.5|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.0.0,<2.0.8|>=2.1.0,<2.1.4|>=2.2.0,<2.2.5|>=2.1.0,<2.1.6|>=2.2.0,<2.2.6|>=2.0.0,<2.2.7|>=2.3.0,<2.3.1|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.8|>=2.3.0,<2.3.3|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.9|>=2.3.0,<2.3.4|>=2.0.0,<2.0.99|>=2.1.0,<2.1.99|>=2.2.0,<2.2.10|>=2.3.0,<2.3.5|>=2.3.0,<2.3.6",
+                "zendframework/zendframework1": ">=1.7.0,<1.7.5|>=1.7.0,<1.7.6|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.7.0,<1.7.9|>=1.8.0,<1.8.5|>=1.9.0,<1.9.7|>=1.9.0,<1.9.8|>=1.10.0,<1.10.3|>=1.0.0,<1.11.4|>=1.10.0,<1.10.9|>=1.11.0,<1.11.6|>=1.0.0,<1.11.13|>=1.0.0,<1.11.13|>=1.11.0,<1.11.15|>=1.12.0,<1.12.1|>=1.12.0,<1.12.4|>=1.12.0,<1.12.4|>=1.12.0,<1.12.7|>=1.12.0,<1.12.9|>=1.12.0,<1.12.9",
+                "zendframework/zendopenid": ">=2.0.0,<2.0.2",
+                "zf-commons/zfc-user": "<1.2.2",
+                "zfr/zfr-oauth2-server-module": "<0.1.2"
+            },
+            "type": "metapackage",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "role": "maintainer"
+                }
+            ],
+            "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
+            "time": "2015-04-20 10:34:51"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -1351,16 +1480,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v2.0.1",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "134cecf1c61256bd8e973e11376891a724543820"
+                "reference": "cecb1397087dc9c733796eda6e9d121336039cdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/134cecf1c61256bd8e973e11376891a724543820",
-                "reference": "134cecf1c61256bd8e973e11376891a724543820",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/cecb1397087dc9c733796eda6e9d121336039cdc",
+                "reference": "cecb1397087dc9c733796eda6e9d121336039cdc",
                 "shasum": ""
             },
             "require": {
@@ -1392,7 +1521,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2015-01-26 16:25:19"
+            "time": "2015-04-21 07:52:05"
         },
         {
             "name": "simple-bus/message-bus",
@@ -1745,12 +1874,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "cbffabff37094b66ae3d439b910cce9b984c4c2e"
+                "reference": "c16930f9ae53b646a3f9606d40b3df53a3545c03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/cbffabff37094b66ae3d439b910cce9b984c4c2e",
-                "reference": "cbffabff37094b66ae3d439b910cce9b984c4c2e",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/c16930f9ae53b646a3f9606d40b3df53a3545c03",
+                "reference": "c16930f9ae53b646a3f9606d40b3df53a3545c03",
                 "shasum": ""
             },
             "require": {
@@ -1859,7 +1988,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-04-14 08:32:15"
+            "time": "2015-04-21 05:40:09"
         },
         {
             "name": "twig/extensions",
@@ -1915,20 +2044,20 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.18.0",
+            "version": "v1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf"
+                "reference": "9f70492f44398e276d1b81c1b43adfe6751c7b7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/4cf7464348e7f9893a93f7096a90b73722be99cf",
-                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9f70492f44398e276d1b81c1b43adfe6751c7b7f",
+                "reference": "9f70492f44398e276d1b81c1b43adfe6751c7b7f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2.4"
+                "php": ">=5.2.7"
             },
             "type": "library",
             "extra": {
@@ -1968,7 +2097,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-01-25 17:32:08"
+            "time": "2015-04-19 08:30:27"
         },
         {
             "name": "zendframework/zend-code",
@@ -2630,6 +2759,47 @@
             "time": "2015-03-30 12:14:13"
         },
         {
+            "name": "henrikbjorn/phpspec-code-coverage",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/henrikbjorn/PhpSpecCodeCoverageExtension.git",
+                "reference": "689f1f173d6ddfac076b4430bf1b6ceb345cff46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/henrikbjorn/PhpSpecCodeCoverageExtension/zipball/689f1f173d6ddfac076b4430bf1b6ceb345cff46",
+                "reference": "689f1f173d6ddfac076b4430bf1b6ceb345cff46",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpspec/phpspec": "~2.0",
+                "phpunit/php-code-coverage": "~2.0"
+            },
+            "require-dev": {
+                "bossa/phpspec2-expect": "~1.0",
+                "ext-xdebug": ">=2.1.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpSpec\\Extension\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Integrates CodeCoverage with PhpSpec",
+            "time": "2014-12-11 11:43:15"
+        },
+        {
             "name": "kriswallsmith/buzz",
             "version": "v0.13",
             "source": {
@@ -2762,23 +2932,23 @@
         },
         {
             "name": "phpspec/phpspec",
-            "version": "2.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "66a1df93099282b1514e9e001fcf6e9393f7783d"
+                "reference": "9727d75919a00455433e867565bc022f0b985a39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/66a1df93099282b1514e9e001fcf6e9393f7783d",
-                "reference": "66a1df93099282b1514e9e001fcf6e9393f7783d",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/9727d75919a00455433e867565bc022f0b985a39",
+                "reference": "9727d75919a00455433e867565bc022f0b985a39",
                 "shasum": ""
             },
             "require": {
-                "doctrine/instantiator": "~1.0,>=1.0.1",
+                "doctrine/instantiator": "^1.0.1",
                 "php": ">=5.3.3",
                 "phpspec/php-diff": "~1.0.0",
-                "phpspec/prophecy": "~1.1",
+                "phpspec/prophecy": "~1.4",
                 "sebastian/exporter": "~1.0",
                 "symfony/console": "~2.3",
                 "symfony/event-dispatcher": "~2.1",
@@ -2787,9 +2957,11 @@
                 "symfony/yaml": "~2.1"
             },
             "require-dev": {
-                "behat/behat": "~3.0,>=3.0.11",
+                "behat/behat": "^3.0.11",
                 "bossa/phpspec2-expect": "~1.0",
-                "symfony/filesystem": "~2.1"
+                "phpunit/phpunit": "~4.4",
+                "symfony/filesystem": "~2.1",
+                "symfony/process": "~2.1"
             },
             "suggest": {
                 "phpspec/nyan-formatters": "~1.0 – Adds Nyan formatters"
@@ -2800,7 +2972,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1.x-dev"
+                    "dev-master": "2.2.x-dev"
                 }
             },
             "autoload": {
@@ -2834,7 +3006,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2015-01-09 13:21:45"
+            "time": "2015-04-18 16:22:51"
         },
         {
             "name": "phpspec/prophecy",
@@ -2895,6 +3067,208 @@
                 "stub"
             ],
             "time": "2015-03-27 19:31:25"
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "2.0.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/934fd03eb6840508231a7f73eb8940cf32c3b66c",
+                "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-file-iterator": "~1.3",
+                "phpunit/php-text-template": "~1.2",
+                "phpunit/php-token-stream": "~1.3",
+                "sebastian/environment": "~1.0",
+                "sebastian/version": "~1.0"
+            },
+            "require-dev": {
+                "ext-xdebug": ">=2.1.4",
+                "phpunit/phpunit": "~4"
+            },
+            "suggest": {
+                "ext-dom": "*",
+                "ext-xdebug": ">=2.2.1",
+                "ext-xmlwriter": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "coverage",
+                "testing",
+                "xunit"
+            ],
+            "time": "2015-04-11 04:35:00"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "a923bb15680d0089e2316f7a4af8f437046e96bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/a923bb15680d0089e2316f7a4af8f437046e96bb",
+                "reference": "a923bb15680d0089e2316f7a4af8f437046e96bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ],
+            "time": "2015-04-02 05:19:05"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Text/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ],
+            "time": "2014-01-30 17:20:04"
+        },
+        {
+            "name": "phpunit/php-token-stream",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "eab81d02569310739373308137284e0158424330"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/eab81d02569310739373308137284e0158424330",
+                "reference": "eab81d02569310739373308137284e0158424330",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Wrapper around PHP's tokenizer extension.",
+            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
+            "keywords": [
+                "tokenizer"
+            ],
+            "time": "2015-04-08 04:46:07"
         },
         {
             "name": "sebastian/comparator",
@@ -3011,6 +3385,56 @@
                 "diff"
             ],
             "time": "2015-02-22 15:13:53"
+        },
+        {
+            "name": "sebastian/environment",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/environment.git",
+                "reference": "5a8c7d31914337b69923db26c4221b81ff5a196e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/5a8c7d31914337b69923db26c4221b81ff5a196e",
+                "reference": "5a8c7d31914337b69923db26c4221b81ff5a196e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides functionality to handle HHVM/PHP environments",
+            "homepage": "http://www.github.com/sebastianbergmann/environment",
+            "keywords": [
+                "Xdebug",
+                "environment",
+                "hhvm"
+            ],
+            "time": "2015-01-01 10:01:08"
         },
         {
             "name": "sebastian/exporter",
@@ -3130,6 +3554,41 @@
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
             "time": "2015-01-24 09:48:32"
+        },
+        {
+            "name": "sebastian/version",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "ab931d46cd0d3204a91e1b9a40c4bc13032b58e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/ab931d46cd0d3204a91e1b9a40c4bc13032b58e4",
+                "reference": "ab931d46cd0d3204a91e1b9a40c4bc13032b58e4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that helps with managing the version number of Git-hosted PHP projects",
+            "homepage": "https://github.com/sebastianbergmann/version",
+            "time": "2015-02-24 06:35:25"
         },
         {
             "name": "sensio/generator-bundle",
@@ -3307,6 +3766,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "roave/security-advisories": 20,
         "symfony/symfony": 20
     },
     "prefer-stable": false,
