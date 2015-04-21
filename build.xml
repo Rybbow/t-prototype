@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="t-prototype" default="build">
+<project name="t-prototype" default="build" basedir="symfony/code">
     <!-- By default, we assume all tools to be on the $PATH -->
     <property name="toolsdir" value=""/>
 
