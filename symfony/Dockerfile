@@ -1,0 +1,28 @@
+FROM ubuntu:14.04
+
+ENV DEBIAN_FRONTEND noninteractive
+ENV LANG C.UTF-8
+
+RUN apt-get update && apt-get install -y \
+    software-properties-common \
+    python-software-properties
+RUN apt-get update && apt-get upgrade -y
+RUN add-apt-repository -y ppa:ondrej/php5-5.6
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    php5-cli \
+    php5-json \
+    php5-intl
+
+RUN curl -sS https://getcomposer.org/installer | php
+RUN mv composer.phar /usr/local/bin/composer
+
+ADD entrypoint.sh /entrypoint.sh
+ADD ./code /var/www
+ADD symfony_environment.sh /etc/profile.d/symfony_environment.sh
+
+WORKDIR /var/www
+
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["echo", "hello"]

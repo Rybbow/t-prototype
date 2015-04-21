@@ -1,0 +1,46 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Symfony template
+# Cache and logs (Symfony2)
+/symfony/code/app/cache/*
+/symfony/code/app/logs/*
+!symfony/code/app/cache/.gitkeep
+!symfony/code/app/logs/.gitkeep
+
+# Cache and logs (Symfony3)
+/symfony/code/var/cache/*
+/symfony/code/var/logs/*
+!symfony/code/var/cache/.gitkeep
+!symfony/code/var/logs/.gitkeep
+
+# Parameters
+/symfony/code/app/config/parameters.yml
+/symfony/code/app/config/parameters.ini
+
+# Managed by Composer
+/symfony/code/app/bootstrap.php.cache
+/symfony/code/var/bootstrap.php.cache
+/symfony/code/bin/*
+!symfony/code/bin/console
+!symfony/code/bin/symfony_requirements
+/symfony/code/vendor/
+
+# Assets and user uploads
+/symfony/code/web/bundles/
+/symfony/code/web/uploads/
+
+# PHPUnit
+/symfony/code/app/phpunit.xml
+/symfony/code/phpunit.xml
+
+# Build data
+/symfony/code/build/
+
+# Composer PHAR
+/symfony/code/composer.phar
+
+### IDE
+/.idea
+
+### OTHER
+*~
+
