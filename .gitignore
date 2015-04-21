@@ -45,6 +45,6 @@
 *~
 
 ### BUILD
-!build/phpmd.xml
-!build/phpdox.xml
-build/*
+!/symfony/code/build/phpmd.xml
+!/symfony/code/build/phpdox.xml
+/symfony/code/build/*

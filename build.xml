@@ -154,7 +154,7 @@
             unless="phpcs.done"
             description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
         <exec executable="${toolsdir}phpcs" taskname="phpcs">
-            <arg value="--standard=PSR2" />
+            <arg value="--standard=Symfony2" />
             <arg value="--extensions=php" />
             <arg value="--ignore=autoload.php" />
             <arg path="${basedir}/src" />
@@ -171,7 +171,7 @@
         <exec executable="${toolsdir}phpcs" output="/dev/null" taskname="phpcs">
             <arg value="--report=checkstyle" />
             <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
-            <arg value="--standard=PSR2" />
+            <arg value="--standard=Symfony2" />
             <arg value="--extensions=php" />
             <arg value="--ignore=autoload.php" />
             <arg path="${basedir}/src" />
@@ -217,9 +217,22 @@
     <target name="phpspec"
             unless="phpspec.done"
             depends="composer"
-            description="Run unit tests with PhpSpec">
-        <exec executable="${basedir}/bin/phpspec" failonerror="true" taskname="run">
+            description="Run unit tests with PhpSpec and log result in html format.">
+        <exec executable="${basedir}/bin/phpspec" failonerror="true" taskname="phpspec">
+            <arg value="run"/>
             <arg value="--format=html"/>
+        </exec>
+
+        <property name="phpspec.done" value="true"/>
+    </target>
+
+    <target name="phpspec-ci"
+            unless="phpspec.done"
+            depends="composer"
+            description="Run unit tests with PhpSpec and log result in XML format.">
+        <exec executable="${basedir}/bin/phpspec" failonerror="true" taskname="phpspec">
+            <arg value="run"/>
+            <arg value="--format=junit"/>
         </exec>
 
         <property name="phpspec.done" value="true"/>
