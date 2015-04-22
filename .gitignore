@@ -33,7 +33,6 @@
 /symfony/code/phpunit.xml
 
 # Build data
-/symfony/code/build/
 
 # Composer PHAR
 /symfony/code/composer.phar
